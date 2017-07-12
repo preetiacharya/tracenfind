@@ -1,0 +1,18 @@
+Rto.create(code: "01", vehicle_number: "KA-01", registration_office: "Bangalore Central - Koramangala - 5634", address: "The Regional Transport Officer ( RTO ),BDA Complex, 3rd Block, Koramangala, Bangalore - 560034", phone_number: "91-80-25533525", district_id: 1, state_id: 1)
+
+Rto.create(code: "02", vehicle_number: "KA-02", registration_office: "Bangalore West - Rajajinagar - 561", address: "The Regional Transport Officer ( RTO ), Rajajinagar Shopping Complex, Bangalore - 560010", phone_number: "91-80-23324388", district_id: 1, state_id: 1)
+
+Rto.create(code: "01", vehicle_number: "MH-01", registration_office: "South - RTO - Mumbai", address: "The Regional Transport Officer ( RTO ), Old BG Lane, Tulsiwadi, Tardeo, Mumbai - 400034", phone_number: "91-22-23532337", district_id: 3, state_id: 2)
+
+Rto.create(code: "02", vehicle_number: "MH-02", registration_office: "West - RTO - Mumbai", address: "The Regional Transport Officer ( RTO ), Ambivali Village, New Manish Nagar, Versova Road, Mumbai - 400053", phone_number: "91-22-26366957 ", district_id: 3, state_id: 2)
+
+Rto.create(code: "01", vehicle_number: "KL-01", registration_office: "Thiruvananthapuram", address: "The Regional Transport Officer ( RTO ), 1st Floor, Transport Bhavan, East Fort, Thiruvananthapuram Fort, Thiruvananthapuram - 695023", phone_number: "91-471-2469223", district_id: 5, state_id: 3)
+
+Rto.create(code: "07", vehicle_number: "KL-07", registration_office: "Ernakulam", address: "TThe Regional Transport Officer ( RTO ), 2 Floor, A 3 Block, Civil Station, Kakkanad, Ernakulam - 682030", phone_number: "91-484-2422246", district_id: 6, state_id: 3)
+
+
+api_key=3319dd85739dce85de1fe7927879334a
+
+State.create(name: "Karnataka", code: "KA")
+
+District.create(name: "Bangalore", state_id: 1)

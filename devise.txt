@@ -1,0 +1,6 @@
+add gem 'devise' to the GEM file
+rails g devise:install
+perform the four tasks
+rails g devise:views
+rails g devise User
+rake db:migrate
